@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -17,9 +17,13 @@ namespace BenzaoSessionOne
 
             for (int i = 0; i < userInput.Length; i++)
             {
-                if (userInput[i] >= 'A' & userInput[i] <= 'Z')
+                if (userInput[i] >= 'A' & userInput[i] <= 'Z') 
                 {
                     stringIndexes.Add(i);
+                }
+                else
+                {
+                    Console.WriteLine("There is no capital letter in the sentence");
                 }
             }
 
