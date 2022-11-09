@@ -17,11 +17,11 @@ namespace BenzaoSessionOne.Runner
         public static void Main(string[] args)
         {
             // StringMasker.Masker();
-            //CapitalLetterCheck.CheckUpperCase();
+            CapitalLetterCheck.CheckUpperCase();
             //Authentication.UserAuthentication();
             //BreakAndContinue.Case();
             //SwitchCaseStatement.SwitchCase();
-            Date.PrintDateAfterWeek();
+            //Date.PrintDateAfterWeek();
 
         }
     }
